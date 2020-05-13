@@ -1,11 +1,13 @@
 body{
-    font-family: 'Nunito';
+    font-family: 'arial';
+    background-color: lightgray;
 }
 
-h2{
-    font-size: 18px;
-    padding: 10px 20px;
-    color: #575ed8;
+h1 {
+    text-align: center;
+    color: grey;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 #annika-chat{
@@ -20,6 +22,7 @@ h2{
     height: 400px;
     overflow: auto;
     background: #f9f9f9;
+    border-radius: 5px;
 }
 
 #output p{
@@ -30,13 +33,13 @@ h2{
 }
 
 #feedback p{
-    color: #aaa;
+    color: lightgrey;
     padding: 14px 0px;
     margin: 0 20px;
 }
 
 #output strong{
-    color: #575ed8;
+    color: grey;
 }
 
 label{
@@ -47,6 +50,7 @@ label{
 
 input{
     padding: 10px 20px;
+    margin: 2px 0;
     box-sizing: border-box;
     background: #eee;
     border: 0;
@@ -54,16 +58,17 @@ input{
     width: 100%;
     background: #fff;
     border-bottom: 1px solid #eee;
-    font-family: Nunito;
     font-size: 16px;
+    border-radius: 5px;
 }
 
 button{
     background: #575ed8;
+    font-weight: bold;
     color: #fff;
     font-size: 18px;
     border: 0;
     padding: 12px 0;
     width: 100%;
-    border-radius: 0 0 2px 2px;
+    border-radius: 5px;
 }
